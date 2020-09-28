@@ -18,25 +18,13 @@ rv_rgb rv_colors[RV_NUM_COLORS] = {
 	{ .r = 0x0000, .g = 0x0000, .b =  0x0077 },
 	{ .r = 0x08ff, .g = 0x0000, .b = -0x00ff },
 	{ .r = 0x08ff, .g = 0x0000, .b = -0x008f },
-	{ .r = 0x08ff, .g = 0x0000, .b =  0x0000 },
-	{ .r = 0x00bb, .g = 0x0000, .b =  0x00cc },
-	{ .r = 0x0099, .g = 0x0000, .b =  0x00bb },
-	{ .r = 0x0055, .g = 0x0000, .b =  0x00aa },
-	{ .r = 0x0000, .g = 0x0000, .b =  0x0000 },
-	{ .r = 0x0000, .g = 0x0000, .b =  0x0000 },
-	{ .r = 0x0000, .g = 0x0000, .b =  0x0000 }
+	{ .r = 0x08ff, .g = 0x0000, .b =  0x0000 }
 };
 char * rv_colors_desc[RV_NUM_COLORS] = {
 	"Base keyboard color (dark blue)",
 	"Typing color, initial key (over-red, under-blue)",
 	"Typing color, first neighbor key",
-	"Typing color, second neighbor key",
-	"Ghost typing color, initial key",
-	"Ghost typing color, first neighbor key",
-	"Ghost typing color, second neighbor key",
-	NULL,
-	NULL,
-	NULL
+	"Typing color, second neighbor key"
 };
 
 int rv_topo_model = RV_TOPO_ISO;
